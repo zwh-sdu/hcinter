@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.js": "/hcinter/static/js/main.d62e6270.js",
+    "main.js": "/hcinter/static/js/main.532100fc.js",
     "static/js/496.32f6fd7b.chunk.js": "/hcinter/static/js/496.32f6fd7b.chunk.js",
     "index.html": "/hcinter/index.html",
-    "main.d62e6270.js.map": "/hcinter/static/js/main.d62e6270.js.map",
+    "static/media/ic_flag_en.svg": "/hcinter/static/media/ic_flag_en.9a67c937df5590b9817e9e99f8965b2a.svg",
+    "main.532100fc.js.map": "/hcinter/static/js/main.532100fc.js.map",
     "496.32f6fd7b.chunk.js.map": "/hcinter/static/js/496.32f6fd7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d62e6270.js"
+    "static/js/main.532100fc.js"
   ]
 }
