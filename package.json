@@ -4,7 +4,7 @@
   "licence": "MIT",
   "version": "1.6.0",
   "private": false,
-  "homepage": "https://zwh-sdu.github.io/hcinter/",
+  "homepage": "https://zwh-sdu.github.io/hcinter",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
