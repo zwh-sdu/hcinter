@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/hcinter/static/js/main.8f93aa7d.js",
+    "main.js": "/hcinter/static/js/main.d62e6270.js",
     "static/js/496.32f6fd7b.chunk.js": "/hcinter/static/js/496.32f6fd7b.chunk.js",
     "index.html": "/hcinter/index.html",
-    "main.8f93aa7d.js.map": "/hcinter/static/js/main.8f93aa7d.js.map",
+    "main.d62e6270.js.map": "/hcinter/static/js/main.d62e6270.js.map",
     "496.32f6fd7b.chunk.js.map": "/hcinter/static/js/496.32f6fd7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8f93aa7d.js"
+    "static/js/main.d62e6270.js"
   ]
 }
