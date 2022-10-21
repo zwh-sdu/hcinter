@@ -12,12 +12,12 @@ import SvgColor from '../../../components/svg-color';
 const navConfig = [
   {
     title: 'Project',
-    path: '/dashboard/app',
+    path: '/dashboard/project',
     icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
   },
   {
     title: 'Data collection',
-    path: '/dashboard/user',
+    path: '/dashboard/dc',
     icon: <SvgColor src={icondc} sx={{ width: 1, height: 1 }} />,
   },
   {
@@ -27,7 +27,7 @@ const navConfig = [
   },
   {
     title: 'Team Intro',
-    path: '/dashboard/blog',
+    path: '/dashboard/team',
     icon: <SvgColor src={iconteam} sx={{ width: 1, height: 1 }} />,
   },
   // {
