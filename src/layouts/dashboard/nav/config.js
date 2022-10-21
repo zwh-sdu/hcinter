@@ -22,7 +22,7 @@ const navConfig = [
   },
   {
     title: 'Data Analysis',
-    path: '/dashboard/products',
+    path: '/dashboard/mydan',
     icon: <SvgColor src={iconda} sx={{ width: 1, height: 1 }} />,
   },
   {

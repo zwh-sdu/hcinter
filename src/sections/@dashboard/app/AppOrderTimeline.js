@@ -57,7 +57,13 @@ function OrderItem({ item, isLast }) {
             (type === 'order2' && 'success') ||
             (type === 'order3' && 'info') ||
             (type === 'order4' && 'warning') ||
-            'error'
+            (type === 'order5' && 'error') ||
+            (type === 'order6' && 'primary') ||
+            (type === 'order7' && 'success') ||
+            (type === 'order8' && 'info') ||
+            (type === 'order9' && 'warning') ||
+            (type === 'order10' && 'error') ||
+            (type === 'order11' && 'primary')
           }
         />
         {isLast ? null : <TimelineConnector />}

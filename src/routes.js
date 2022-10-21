@@ -3,7 +3,7 @@ import { Navigate, useRoutes } from 'react-router-dom';
 import DashboardLayout from './layouts/dashboard';
 import SimpleLayout from './layouts/simple';
 //
-import BlogPage from './pages/BlogPage';
+// import BlogPage from './pages/BlogPage';
 // import UserPage from './pages/UserPage';
 import DcPage from './pages/DcPage';
 import LoginPage from './pages/LoginPage';
@@ -12,6 +12,7 @@ import LoginPage from './pages/LoginPage';
 import TeamPage from './pages/TeamPage';
 // import DashboardAppPage from './pages/DashboardAppPage';
 import ProjectPage from './pages/ProjectPage';
+import DaPage from './pages/DaPage';
 
 // ----------------------------------------------------------------------
 
@@ -25,8 +26,7 @@ export default function Router() {
         { path: 'project', element: <ProjectPage /> },
         { path: 'dc', element: <DcPage /> },
         { path: 'team', element: <TeamPage /> },
-        { path: 'blog', element: <BlogPage /> },
-        { path: 'team', element: <BlogPage /> },
+        { path: 'mydan', element: <DaPage /> },
       ],
     },
     {

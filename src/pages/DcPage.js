@@ -11,7 +11,7 @@ export default function DcPage() {
   return (
     <>
       <Helmet>
-        <title> Project </title>
+        <title> Data Collection </title>
       </Helmet>
  
       <Container maxWidth="xl">
