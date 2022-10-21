@@ -1,9 +1,11 @@
 // ----------------------------------------------------------------------
+import kuromi from '@mui/material/my_images/kuromi.jpeg';
+
 
 const account = {
-  displayName: 'Jaydon Frankie',
-  email: 'demo@minimals.cc',
-  photoURL: '/assets/images/avatars/avatar_default.jpg',
+  displayName: 'kuromi',
+  email: 'kuromi@mail.com',
+  photoURL: kuromi,
 };
 
 export default account;

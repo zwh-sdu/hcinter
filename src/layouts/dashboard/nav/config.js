@@ -1,41 +1,45 @@
+import iconproject from '@mui/material/my_images/project.svg'
+import icondc from '@mui/material/my_images/dc.svg'
+import iconda from '@mui/material/my_images/da.svg'
+import iconteam from '@mui/material/my_images/team.svg'
 // component
 import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 
-const icon = (name) => <SvgColor src={`/assets/icons/navbar/${name}.svg`} sx={{ width: 1, height: 1 }} />;
+// const icon = (name) => <SvgColor src={temp} sx={{ width: 1, height: 1 }} />;
 
 const navConfig = [
   {
-    title: 'dashboard',
+    title: 'Project',
     path: '/dashboard/app',
-    icon: icon('ic_analytics'),
+    icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
   },
   {
-    title: 'user',
+    title: 'Data collection',
     path: '/dashboard/user',
-    icon: icon('ic_user'),
+    icon: <SvgColor src={icondc} sx={{ width: 1, height: 1 }} />,
   },
   {
-    title: 'product',
+    title: 'Data Analysis',
     path: '/dashboard/products',
-    icon: icon('ic_cart'),
+    icon: <SvgColor src={iconda} sx={{ width: 1, height: 1 }} />,
   },
   {
-    title: 'blog',
+    title: 'Team Intro',
     path: '/dashboard/blog',
-    icon: icon('ic_blog'),
+    icon: <SvgColor src={iconteam} sx={{ width: 1, height: 1 }} />,
   },
-  {
-    title: 'login',
-    path: '/login',
-    icon: icon('ic_lock'),
-  },
-  {
-    title: 'Not found',
-    path: '/404',
-    icon: icon('ic_disabled'),
-  },
+  // {
+  //   title: 'login',
+  //   path: '/login',
+  //   icon: icon('ic_lock'),
+  // },
+  // {
+  //   title: 'Not found',
+  //   path: '/404',
+  //   icon: icon('ic_disabled'),
+  // },
 ];
 
 export default navConfig;

@@ -2,24 +2,32 @@ import { useState } from 'react';
 // @mui
 import { alpha } from '@mui/material/styles';
 import { Box, MenuItem, Stack, IconButton, Popover } from '@mui/material';
-import icon1 from '@mui/material/icons/ic_flag_en.svg';
+import iconen from '@mui/material/my_images/ic_flag_en.svg';
+import iconch from '@mui/material/my_images/china.png';
+import iconde from '@mui/material/my_images/ic_flag_de.svg';
+import iconfr from '@mui/material/my_images/ic_flag_fr.svg';
 // --------------------------------------------------------------------
 
 const LANGS = [
   {
+    value: 'ch',
+    label: 'Chinese',
+    icon: iconch,
+  },
+  {
     value: 'en',
     label: 'English',
-    icon: '/assets/icons/ic_flag_en.svg',
+    icon: iconen,
   },
   {
     value: 'de',
     label: 'German',
-    icon: '/assets/icons/ic_flag_de.svg',
+    icon: iconde,
   },
   {
     value: 'fr',
     label: 'French',
-    icon: '/assets/icons/ic_flag_fr.svg',
+    icon: iconfr,
   },
 ];
 
@@ -49,7 +57,7 @@ export default function LanguagePopover() {
           }),
         }}
       >
-        <img src={icon1} alt={LANGS[0].label} />
+        <img src={LANGS[0].icon} alt={LANGS[0].label} />
       </IconButton>
 
       <Popover
