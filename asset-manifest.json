@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/hcinter/static/js/main.14da1a40.js",
+    "main.js": "/hcinter/static/js/main.00f05603.js",
     "static/js/496.32f6fd7b.chunk.js": "/hcinter/static/js/496.32f6fd7b.chunk.js",
     "static/media/kuromi.jpeg": "/hcinter/static/media/kuromi.d2ed1334f53f108346a2.jpeg",
     "static/media/zwh.jpg": "/hcinter/static/media/zwh.c7a31b2d9ab5b78ade03.jpg",
@@ -17,10 +17,10 @@
     "static/media/project.svg": "/hcinter/static/media/project.8185a90d8973cdddd17fe728fe04c17a.svg",
     "static/media/ic_flag_en.svg": "/hcinter/static/media/ic_flag_en.9a67c937df5590b9817e9e99f8965b2a.svg",
     "static/media/ic_flag_fr.svg": "/hcinter/static/media/ic_flag_fr.35afd52c95dd5a61c04af9204e3dbeb6.svg",
-    "main.14da1a40.js.map": "/hcinter/static/js/main.14da1a40.js.map",
+    "main.00f05603.js.map": "/hcinter/static/js/main.00f05603.js.map",
     "496.32f6fd7b.chunk.js.map": "/hcinter/static/js/496.32f6fd7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.14da1a40.js"
+    "static/js/main.00f05603.js"
   ]
 }
