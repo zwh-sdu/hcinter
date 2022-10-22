@@ -1,9 +1,15 @@
 import { Helmet } from 'react-helmet-async';
 // import { faker } from '@faker-js/faker';
 // @mui
-import { useTheme } from '@mui/material/styles';
+import { useTheme,styled } from '@mui/material/styles';
 import { Grid, Container, Typography, CardContent } from '@mui/material';
-// import temp from '@mui/material/my_images/kuromi.jpeg'
+import ai from '@mui/material/my_images/a1.png';
+import bi from '@mui/material/my_images/a2.png';
+import ci from '@mui/material/my_images/a3.png';
+import di from '@mui/material/my_images/a4.png';
+import ei from '@mui/material/my_images/a5.png';
+
+
 // components
 // import Iconify from '../components/iconify';
 // sections
@@ -13,6 +19,15 @@ import {
   AppCurrentSubject,
   AppConversionRates,
 } from '../sections/@dashboard/app';
+
+const StyledProductImg = styled('img')({
+  // top: 0,
+  width: '70%',
+  // height: '20%',
+  // objectFit: 'cover',
+  position: 'relative',
+  // left:'50%'
+});
 
 // ----------------------------------------------------------------------
 
@@ -144,13 +159,13 @@ export default function DashboardAppPage() {
                   name: '男生',
                   type: 'area',
                   fill: 'gradient',
-                  data: [35, 40, 60, 56, 69, 76],
+                  data: [44, 42, 60, 56, 69, 66],
                 },
                 {
                   name: '女生',
                   type: 'line',
                   fill: 'solid',
-                  data: [50, 60, 56, 70, 59, 64],
+                  data: [50, 47, 56, 60, 59, 52],
                 },
               ]}
             />
@@ -164,10 +179,38 @@ export default function DashboardAppPage() {
           Affinity diagram of Interview
         </Typography>
 
-        {/* <Grid container spacing={3}>
-          <Grid item xs={12} md={6} lg={8}>
+        {/* <Grid container spacing={3}> */}
+          <Grid item xs={12} md={6}>
+            <CardContent sx={{fontSize:18}}>
+              一：选定好标签开始进行相似的放到一起（一列中），不相似的另起一列
+            </CardContent>
+            <StyledProductImg src={ai} />
           </Grid>
-        </Grid> */}
+          <Grid item xs={12} md={6}>
+            <CardContent sx={{fontSize:18}}>
+              二：放置流程如下
+            </CardContent>
+            <StyledProductImg src={bi} />
+            <StyledProductImg src={ci} />
+            <StyledProductImg src={di} />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <CardContent sx={{fontSize:18}}>
+              三：对应类别完成head标签最终完成品
+            </CardContent>
+            <StyledProductImg src={ei} />
+          </Grid>
+          <CardContent sx={{fontSize:18}}>
+          分析：<br/><br/>
+          通过对表格的浏览，我们发现，不论时男女同学对比还是本科生和研究生之间的对比，不论是心理压力还是锻炼倾向度都有很大的不同。
+          <ul>
+            <li>随着年龄和课业内容的增加，理所当然会迎来相对较大的就业、课业等心理压力，但是相对的压力处理方式也变得越来越成熟。</li>
+            <li>本科生尤其是男同学与电子产品相处时间过长，这将会影响到学业和就业问题，不难发现，大四状况的紧张也是与其有关系的。</li>
+            <li>研究生有所不足的是不如本科生交际圈广泛，这可能与研究生数目相对于本科生来说较少的缘故。</li>
+            <li>针对锻炼问题，学校的引导力和推动力有非常大的关系，结伴锻炼是一个非常好的方式，学校和相关社团也应当积极组织处理。</li>
+          </ul>
+          </CardContent>
+        {/* </Grid> */}
 
       </Container>
     </>
