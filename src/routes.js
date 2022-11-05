@@ -13,6 +13,9 @@ import TeamPage from './pages/TeamPage';
 // import DashboardAppPage from './pages/DashboardAppPage';
 import ProjectPage from './pages/ProjectPage';
 import DaPage from './pages/DaPage';
+import FlowPage from './pages/FlowPage';
+import PersonasPage from './pages/PersonasPage';
+import StoryboardPage from './pages/StoryboardPage';
 
 // ----------------------------------------------------------------------
 
@@ -27,6 +30,9 @@ export default function Router() {
         { path: 'dc', element: <DcPage /> },
         { path: 'team', element: <TeamPage /> },
         { path: 'mydan', element: <DaPage /> },
+        { path: 'flow', element: <FlowPage /> },
+        { path: 'personas', element: <PersonasPage /> },
+        { path: 'storyboard', element: <StoryboardPage /> },
       ],
     },
     {

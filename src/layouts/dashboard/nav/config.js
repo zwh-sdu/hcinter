@@ -2,6 +2,10 @@ import iconproject from '@mui/material/my_images/project.svg'
 import icondc from '@mui/material/my_images/dc.svg'
 import iconda from '@mui/material/my_images/da.svg'
 import iconteam from '@mui/material/my_images/team.svg'
+import iconflow from '@mui/material/my_images/flow.svg'
+import iconpersonas from '@mui/material/my_images/personas.svg'
+import iconstory from '@mui/material/my_images/story.svg'
+
 // component
 import SvgColor from '../../../components/svg-color';
 
@@ -24,6 +28,21 @@ const navConfig = [
     title: 'Data Analysis',
     path: '/dashboard/mydan',
     icon: <SvgColor src={iconda} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: 'Flow model & HMW',
+    path: '/dashboard/flow',
+    icon: <SvgColor src={iconflow} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: 'Personas',
+    path: '/dashboard/personas',
+    icon: <SvgColor src={iconpersonas} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: 'Storyboards',
+    path: '/dashboard/storyboard',
+    icon: <SvgColor src={iconstory} sx={{ width: 1, height: 1 }} />,
   },
   {
     title: 'Team Intro',
