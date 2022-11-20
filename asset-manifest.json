@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/hcinter/static/js/main.33317b6b.js",
+    "main.js": "/hcinter/static/js/main.eda95e6a.js",
     "static/js/496.32f6fd7b.chunk.js": "/hcinter/static/js/496.32f6fd7b.chunk.js",
     "static/media/flowchart.drawio.png": "/hcinter/static/media/flowchart.drawio.458640c1798a1618d807.png",
     "static/media/story2.png": "/hcinter/static/media/story2.83ff563043018a3ea2bc.png",
@@ -14,14 +14,20 @@
     "static/media/a4.png": "/hcinter/static/media/a4.2c720fe49c18fcafd3f1.png",
     "static/media/home.png": "/hcinter/static/media/home.6cd4644bd195dce49c78.png",
     "static/media/illustration.png": "/hcinter/static/media/illustration.8e788395950fef2b2abc.png",
+    "static/media/lf4.jpg": "/hcinter/static/media/lf4.69e76775c581229fa13b.jpg",
     "static/media/add.png": "/hcinter/static/media/add.f394a59dddf4700c858d.png",
     "static/media/a3.png": "/hcinter/static/media/a3.bd77539f2d01308ac396.png",
+    "static/media/lf2.jpg": "/hcinter/static/media/lf2.5be0b78af2738ee24d0d.jpg",
+    "static/media/lf1.jpg": "/hcinter/static/media/lf1.763f9ad879ae731c4930.jpg",
+    "static/media/lf5.jpg": "/hcinter/static/media/lf5.e3bae59f05b63fcdb808.jpg",
     "static/media/a1.png": "/hcinter/static/media/a1.2f14f2c3e087de52b9a6.png",
     "static/media/ask.png": "/hcinter/static/media/ask.159ee4a7257609a2fc80.png",
+    "static/media/lf6.jpg": "/hcinter/static/media/lf6.fdc739ff083ee50cfa59.jpg",
     "static/media/train.png": "/hcinter/static/media/train.62ff21d619564a9141d0.png",
     "static/media/FLow Model.png": "/hcinter/static/media/FLow Model.a13a5c46105cfc7508c2.png",
     "static/media/data.png": "/hcinter/static/media/data.30872cd94a7d0a68b3ab.png",
     "static/media/a2.png": "/hcinter/static/media/a2.6229cae8e981d41cad14.png",
+    "static/media/lf3.jpg": "/hcinter/static/media/lf3.1bec51cd4c017f908623.jpg",
     "static/media/setting.png": "/hcinter/static/media/setting.74b4f5fe80412b110a08.png",
     "static/media/friend.png": "/hcinter/static/media/friend.6ed70b2bda06a6ba7654.png",
     "static/media/plan.png": "/hcinter/static/media/plan.7c2a72ca6bc6cf0b98ad.png",
@@ -39,10 +45,10 @@
     "static/media/ic_flag_en.svg": "/hcinter/static/media/ic_flag_en.9a67c937df5590b9817e9e99f8965b2a.svg",
     "static/media/story.svg": "/hcinter/static/media/story.ee944fbd8d62f95b144a03386c22148e.svg",
     "static/media/ic_flag_fr.svg": "/hcinter/static/media/ic_flag_fr.35afd52c95dd5a61c04af9204e3dbeb6.svg",
-    "main.33317b6b.js.map": "/hcinter/static/js/main.33317b6b.js.map",
+    "main.eda95e6a.js.map": "/hcinter/static/js/main.eda95e6a.js.map",
     "496.32f6fd7b.chunk.js.map": "/hcinter/static/js/496.32f6fd7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.33317b6b.js"
+    "static/js/main.eda95e6a.js"
   ]
 }
