@@ -28,7 +28,7 @@ AppTasks.propTypes = {
 export default function AppTasks({ title, subheader, list, ...other }) {
   const { control } = useForm({
     defaultValues: {
-      taskCompleted: ['1','2','3','4'],
+      taskCompleted: ['1','2','3','4','5','6'],
     },
   });
 

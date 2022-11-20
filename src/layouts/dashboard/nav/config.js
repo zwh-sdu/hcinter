@@ -6,6 +6,7 @@ import iconflow from '@mui/material/my_images/flow.svg'
 import iconpersonas from '@mui/material/my_images/personas.svg'
 import iconstory from '@mui/material/my_images/story.svg'
 import iconwireframe from '@mui/material/my_images/wireframe.png'
+import iconlowfi from '@mui/material/my_images/lowfi.png'
 
 // component
 import SvgColor from '../../../components/svg-color';
@@ -46,6 +47,11 @@ const navConfig = [
     icon: <SvgColor src={iconstory} sx={{ width: 1, height: 1 }} />,
   },
   {
+    title: 'Low-fi',
+    path: '/dashboard/low-fi',
+    icon: <SvgColor src={iconlowfi} sx={{ width: 1, height: 1 }} />,
+  },
+  {
     title: 'Wireframe&flowchart',
     path: '/dashboard/wireframe&flowchart',
     icon: <SvgColor src={iconwireframe} sx={{ width: 1, height: 1 }} />,
@@ -55,6 +61,7 @@ const navConfig = [
     path: '/dashboard/team',
     icon: <SvgColor src={iconteam} sx={{ width: 1, height: 1 }} />,
   },
+
   // {
   //   title: 'login',
   //   path: '/login',
