@@ -16,6 +16,7 @@ import DaPage from './pages/DaPage';
 import FlowPage from './pages/FlowPage';
 import PersonasPage from './pages/PersonasPage';
 import StoryboardPage from './pages/StoryboardPage';
+import WireframePage from './pages/Wireframe&flowchartPage';
 
 // ----------------------------------------------------------------------
 
@@ -33,6 +34,7 @@ export default function Router() {
         { path: 'flow', element: <FlowPage /> },
         { path: 'personas', element: <PersonasPage /> },
         { path: 'storyboard', element: <StoryboardPage /> },
+        { path: 'wireframe&flowchart', element: <WireframePage /> },
       ],
     },
     {
