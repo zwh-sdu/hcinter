@@ -7,6 +7,7 @@ import iconpersonas from '@mui/material/my_images/personas.svg'
 import iconstory from '@mui/material/my_images/story.svg'
 import iconwireframe from '@mui/material/my_images/wireframe.png'
 import iconlowfi from '@mui/material/my_images/lowfi.png'
+import iconCritiqueFeedback from '@mui/material/my_images/CritiqueFeedback.png'
 
 // component
 import SvgColor from '../../../components/svg-color';
@@ -60,6 +61,11 @@ const navConfig = [
     title: 'Team Intro',
     path: '/dashboard/team',
     icon: <SvgColor src={iconteam} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: 'CritiqueFeedback',
+    path: '/dashboard/CritiqueFeedback',
+    icon: <SvgColor src={iconCritiqueFeedback} sx={{ width: 1, height: 1 }} />,
   },
 
   // {

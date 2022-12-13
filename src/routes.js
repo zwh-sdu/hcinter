@@ -18,6 +18,7 @@ import PersonasPage from './pages/PersonasPage';
 import StoryboardPage from './pages/StoryboardPage';
 import WireframePage from './pages/Wireframe&flowchartPage';
 import LowfiPage from './pages/lowfiPage';
+import CritiqueFeedbackPage from './pages/CritiqueFeedbackPage';
 
 // ----------------------------------------------------------------------
 
@@ -37,6 +38,7 @@ export default function Router() {
         { path: 'storyboard', element: <StoryboardPage /> },
         { path: 'low-fi', element: <LowfiPage /> },
         { path: 'wireframe&flowchart', element: <WireframePage /> },
+        { path: 'CritiqueFeedback', element: <CritiqueFeedbackPage /> },
       ],
     },
     {
