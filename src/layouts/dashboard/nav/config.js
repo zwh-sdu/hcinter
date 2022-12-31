@@ -6,7 +6,7 @@ import iconflow from '@mui/material/my_images/flow.svg'
 import iconpersonas from '@mui/material/my_images/personas.svg'
 import iconstory from '@mui/material/my_images/story.svg'
 import iconwireframe from '@mui/material/my_images/wireframe.png'
-import iconlowfi from '@mui/material/my_images/lowfi.png'
+import iconlowfi from '@mui/material/my_images/lowfi.svg'
 import iconCritiqueFeedback from '@mui/material/my_images/CritiqueFeedback.png'
 
 // component
@@ -17,6 +17,36 @@ import SvgColor from '../../../components/svg-color';
 // const icon = (name) => <SvgColor src={temp} sx={{ width: 1, height: 1 }} />;
 
 const navConfig = [
+  {
+    title: '主页',
+    path: '/dashboard/main',
+    icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: '好友',
+    path: '/dashboard/friend',
+    icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: '用户',
+    path: '/dashboard/account',
+    icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
+  },
+    {
+    title: '数据',
+    path: '/dashboard/rt',
+    icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: '训练计划',
+    path: '/dashboard/plan',
+    icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
+  },
+  {
+    title: '设置',
+    path: '/dashboard/setting',
+    icon: <SvgColor src={iconproject} sx={{ width: 1, height: 1 }} />,
+  },
   {
     title: 'Project',
     path: '/dashboard/project',

@@ -19,6 +19,12 @@ import StoryboardPage from './pages/StoryboardPage';
 import WireframePage from './pages/Wireframe&flowchartPage';
 import LowfiPage from './pages/lowfiPage';
 import CritiqueFeedbackPage from './pages/CritiqueFeedbackPage';
+import MainPage from './pages/MainPage';
+import FriendPage from './pages/FriendPage';
+import AccountPage from './pages/AccountPage';
+import RTPage from './pages/RTPage';
+import PlanPage from './pages/PlanPage';
+import SettingPage from './pages/settingPage';
 
 // ----------------------------------------------------------------------
 
@@ -29,6 +35,7 @@ export default function Router() {
       element: <DashboardLayout />,
       children: [
         { element: <Navigate to="/dashboard/project" />, index: true },
+        { path: 'main', element: <MainPage /> },
         { path: 'project', element: <ProjectPage /> },
         { path: 'dc', element: <DcPage /> },
         { path: 'team', element: <TeamPage /> },
@@ -39,6 +46,11 @@ export default function Router() {
         { path: 'low-fi', element: <LowfiPage /> },
         { path: 'wireframe&flowchart', element: <WireframePage /> },
         { path: 'CritiqueFeedback', element: <CritiqueFeedbackPage /> },
+        { path: 'friend', element: <FriendPage /> },
+        { path: 'account', element: <AccountPage /> },
+        { path: 'rt', element: <RTPage /> },
+        { path: 'plan', element: <PlanPage /> },
+        { path: 'setting', element: <SettingPage /> },
       ],
     },
     {
